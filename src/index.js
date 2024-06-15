@@ -301,7 +301,7 @@ function InputEmoji(props, ref) {
 
   return (
     <div className="vinnu-react-emoji">
-      {/* <EmojiPickerWrapper
+      <EmojiPickerWrapper
         theme={theme}
         keepOpened={keepOpened}
         disableRecent={disableRecent}
@@ -318,8 +318,8 @@ function InputEmoji(props, ref) {
         addEventListener={addEventListener}
         appendContent={appendContent}
         addSanitizeFn={addSanitizeFn}
-      /> */}
-{/* 
+      />
+
       <TextInput
         ref={textInputRef}
         onCopy={handleCopy}
@@ -345,7 +345,7 @@ function InputEmoji(props, ref) {
         tabIndex={tabIndex}
         className={inputClass}
         onChange={handleTextInputChange}
-      /> */}
+      />
       
     </div>
   );

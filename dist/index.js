@@ -3219,7 +3219,7 @@ function InputEmoji(props, ref) {
     };
   }, [addEventListener, onBlur]);
   return /*#__PURE__*/React__default["default"].createElement("div", {
-    className: "react-emoji"
+    className: "vinnu-react-emoji"
   });
 }
 var InputEmojiWithRef = /*#__PURE__*/React.forwardRef(InputEmoji);
