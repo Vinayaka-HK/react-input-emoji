@@ -301,7 +301,7 @@ function InputEmoji(props, ref) {
 
   return (
     <div className="react-emoji">
-      <EmojiPickerWrapper
+      {/* <EmojiPickerWrapper
         theme={theme}
         keepOpened={keepOpened}
         disableRecent={disableRecent}
@@ -318,7 +318,7 @@ function InputEmoji(props, ref) {
         addEventListener={addEventListener}
         appendContent={appendContent}
         addSanitizeFn={addSanitizeFn}
-      />
+      /> */}
 {/* 
       <TextInput
         ref={textInputRef}
