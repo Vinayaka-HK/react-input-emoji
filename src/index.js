@@ -307,6 +307,18 @@ function InputEmoji(props, ref) {
         appendContent={appendContent}
         addSanitizeFn={addSanitizeFn}
       />
+      <EmojiPickerWrapper
+        theme={theme}
+        keepOpened={keepOpened}
+        disableRecent={disableRecent}
+        customEmojis={customEmojis}
+        addSanitizeFn={addSanitizeFn}
+        addPolluteFn={addPolluteFn}
+        appendContent={appendContent}
+        buttonElement={buttonElement}
+        buttonRef={buttonRef}
+        language={language}
+      />
       <TextInput
         ref={textInputRef}
         onCopy={handleCopy}
@@ -333,18 +345,7 @@ function InputEmoji(props, ref) {
         className={inputClass}
         onChange={handleTextInputChange}
       />
-      <EmojiPickerWrapper
-        theme={theme}
-        keepOpened={keepOpened}
-        disableRecent={disableRecent}
-        customEmojis={customEmojis}
-        addSanitizeFn={addSanitizeFn}
-        addPolluteFn={addPolluteFn}
-        appendContent={appendContent}
-        buttonElement={buttonElement}
-        buttonRef={buttonRef}
-        language={language}
-      />
+      
     </div>
   );
 }
