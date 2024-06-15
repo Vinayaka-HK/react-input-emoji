@@ -159,6 +159,13 @@ const EmojiPickerWrapper = props => {
   return customButton ? (
     (ReactDOM.createPortal(
       <>
+
+        <EmojiPickerButton
+          showPicker={showPicker}
+          toggleShowPicker={toggleShowPicker}
+          buttonElement={customButton}
+          buttonRef={buttonRef}
+        />
         <EmojiPickerContainer
           showPicker={showPicker}
           theme={theme}
@@ -167,12 +174,6 @@ const EmojiPickerWrapper = props => {
           customEmojis={customEmojis}
           position={emojiPickerPosition}
           language={language}
-        />
-        <EmojiPickerButton
-          showPicker={showPicker}
-          toggleShowPicker={toggleShowPicker}
-          buttonElement={customButton}
-          buttonRef={buttonRef}
         />
       </>,
       customButton
