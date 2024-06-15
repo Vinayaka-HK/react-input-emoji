@@ -180,6 +180,10 @@ const EmojiPickerWrapper = props => {
     ))
   ) : (
     (<>
+      <EmojiPickerButton
+        showPicker={showPicker}
+        toggleShowPicker={toggleShowPicker}
+      />
       <EmojiPickerContainer
         showPicker={showPicker}
         theme={theme}
@@ -189,10 +193,7 @@ const EmojiPickerWrapper = props => {
         position={emojiPickerPosition}
         language={language}
       />
-      <EmojiPickerButton
-        showPicker={showPicker}
-        toggleShowPicker={toggleShowPicker}
-      />
+    
     </>)
   );
 };
