@@ -300,7 +300,7 @@ function InputEmoji(props, ref) {
   }
 
   return (
-    <div className="react-emoji">
+    <div className="vinnu-react-emoji">
       {/* <EmojiPickerWrapper
         theme={theme}
         keepOpened={keepOpened}
