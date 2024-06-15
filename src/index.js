@@ -301,12 +301,6 @@ function InputEmoji(props, ref) {
 
   return (
     <div className="react-emoji">
-      <MentionWrapper
-        searchMention={searchMention}
-        addEventListener={addEventListener}
-        appendContent={appendContent}
-        addSanitizeFn={addSanitizeFn}
-      />
       <EmojiPickerWrapper
         theme={theme}
         keepOpened={keepOpened}
@@ -319,6 +313,13 @@ function InputEmoji(props, ref) {
         buttonRef={buttonRef}
         language={language}
       />
+      <MentionWrapper
+        searchMention={searchMention}
+        addEventListener={addEventListener}
+        appendContent={appendContent}
+        addSanitizeFn={addSanitizeFn}
+      />
+
       <TextInput
         ref={textInputRef}
         onCopy={handleCopy}
