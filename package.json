@@ -5,7 +5,7 @@
   "homepage": "https://cesarwbr.github.io/react-input-emoji/",
   "author": "cesarwbr",
   "license": "MIT",
-  "repository": "cesarwbr/react-input-emoji",
+  "repository": "Vinayaka-HK/react-input-emoji",
   "main": "dist/index.js",
   "types": "dist/src/index.d.ts",
   "keywords": [
