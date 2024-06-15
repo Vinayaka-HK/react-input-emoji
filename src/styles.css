@@ -112,6 +112,8 @@
   align-items: center;
   position: relative;
   width: 100%;
+  flex-direction: row-reverse;
+
 }
 
 .react-emoji-picker--container {
@@ -237,6 +239,7 @@
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(360deg);
   }
