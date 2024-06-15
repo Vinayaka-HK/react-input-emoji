@@ -319,7 +319,7 @@ function InputEmoji(props, ref) {
         appendContent={appendContent}
         addSanitizeFn={addSanitizeFn}
       />
-
+{/* 
       <TextInput
         ref={textInputRef}
         onCopy={handleCopy}
@@ -345,7 +345,7 @@ function InputEmoji(props, ref) {
         tabIndex={tabIndex}
         className={inputClass}
         onChange={handleTextInputChange}
-      />
+      /> */}
       
     </div>
   );
